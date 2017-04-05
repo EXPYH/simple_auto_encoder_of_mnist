@@ -50,11 +50,11 @@ class Affine:
 iters_num = 10000
 train_size = x_train.shape[0]
 batch_size = 100
-learning_rate = 0.00003
+learning_rate = 0.00001
 batch_mask = batch_mask = np.random.choice(train_size, batch_size)
 weight_init_std = 0.01
 input_size = x_train[0].shape[0]
-hidden_size = 50
+hidden_size = 1000
 output_size = input_size 
 
 
